@@ -1,0 +1,42 @@
+﻿@model ExTI.Models.CadMaquinas
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Cadastro de Máquinas</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Patrimonio" class="control-label"></label>
+                <input asp-for="Patrimonio" class="form-control" placeholder="Digite o Número do Patrimônio..." />
+                <span asp-validation-for="Patrimonio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Memoria" class="control-label"></label>
+                <input asp-for="Memoria" class="form-control" placeholder="Digite a Memoria RAM..." />
+                <span asp-validation-for="Memoria" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HD" class="control-label"></label>
+                <input asp-for="HD" class="form-control" placeholder="Digite o Tamanho do HD..." />
+                <span asp-validation-for="HD" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Cadastrar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar a Lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,36 @@
+﻿@model ExTI.Models.CadMaquinas
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Detalhes</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Patrimonio)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Patrimonio)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Memoria)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Memoria)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.HD)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.HD)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.IdMaquina">Editar</a> |
+    <a asp-action="Index">Voltar Lista</a>
+</div>

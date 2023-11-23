@@ -1,0 +1,120 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url(../img/bg.jpg);    
+    background-size:cover;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+        color: grey;
+}
+
+h1 {
+    color: white;    
+    
+    text-align: center;
+    margin-top: 5vw;
+}
+
+h3 {
+    color: lightgray;
+}
+
+h4 {
+    color: lightgray;    
+}
+
+hr {
+    color: white;    
+}
+
+footer{
+    background-color: #252525;
+}
+
+.telainic {
+    background-color: rgba(255, 255, 255, 0.20);
+    margin-top: 15%;
+    padding: 40px;
+    border-color: black;
+    border-style: outset;
+    border-width: 25px;
+    color: black;
+}
+
+.tituloinic{
+    font-size: 9rem;   
+}
+
+.subtituloinic{
+    font-size: 2.5rem;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: grey;
+}
+
+.table {
+    background-color: rgba(255, 255, 255, 0.40);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.col-md-4 {
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 2%;
+    color: lightgray;
+}
+
+.btn-primary {
+    background-color: #252525;
+    border-color: darkgrey;
+}
+
+    .btn-primary:hover {
+        background-color: lightgray;        
+        border-color: white;
+        color: black;
+    }
+
+.form-group{
+    margin:1.5vw;
+}
+
+dl{
+    color:lightgray;
+}
+
