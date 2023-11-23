@@ -10,5 +10,6 @@ namespace ExTI.Models
         public int IdMaquina { get; set; }
         public string Valor { get; set; }
         public  int Quantidade { get; set; }
+        
     }
 }

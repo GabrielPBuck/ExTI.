@@ -13,5 +13,7 @@ namespace ExTI.Models
 
         public List<CadClientes> ListaClientes { get; set; }
         public List<CadMaquinas> ListaMaquinas { get; set; }
+
+
     }
 }

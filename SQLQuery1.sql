@@ -39,3 +39,9 @@ GO
 SELECT * FROM CadClientes;
 SELECT * FROM CadMaquinas;
 SELECT * FROM Inventario;
+
+GO
+
+ALTER TABLE Inventario
+ADD CONSTRAINT FK_Inventario_CadClientes
+FOREIGN KEY (IdCliente) REFERENCES CadClientes(IdCliente);

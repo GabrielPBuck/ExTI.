@@ -53,6 +53,7 @@ namespace ExTI.Controllers
             model.ListaMaquinas = _context.CadMaquinas.ToList();            
             return View(model);
         }
+           
 
         // POST: Inventarios/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.

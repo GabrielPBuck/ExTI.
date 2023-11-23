@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ExTI",
+    "\\ExTI\\Views",
+    "\\ExTI\\Views\\Inventarios"
   ],
-  "SelectedNode": "\\ExTI.sln",
+  "SelectedNode": "\\ExTI\\Views\\Inventarios\\Delete.cshtml",
   "PreviewInSolutionExplorer": false
 }
